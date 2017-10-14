@@ -1,0 +1,30 @@
+extends barraFlat.jade
+block barraFlat
+
+			// Identificador
+			.row(style='color: #006CBC; margin-top: 5%;')
+				h4(align='center', style='margin-top: 1px; ') Aulas Registradas
+
+			// Contenedor de Productos
+			.container(align='center', style="margin-top: 20px;")
+					if(encontrado!=false) 
+						each aula in aulas
+							.col-md-3.col-xs-5
+								li.Product(style="margin-top: 20px; width: 230px; height: 240px;")
+									figure.imghvr-push-up
+
+										img.img-responsive(src='img/aula.jpg', style="width: 500px; height: 180px;")
+										figcaption
+											h6 Total de Canaimas operativas #{aula.Canaimas_Operativas}
+											h7 Canaimas con windows #{aula.Canaimas_Windows}
+										
+										//form(action="/producto/search", method='get', autocompleted="off")
+										a(href='/Buscar?grado=#{aula.Grado}&seccion=#{aula.Seccion}', name='id', method='get')
+
+									.row
+										h8 #{aula.Nombre_Docente}	
+									.row
+										h8 #{aula.Grado} #{aula.Seccion}
+
+					else
+						span(style='font-size: 20px; color:#B3B3B3;' align='center') No se ha encontrado coincidencias

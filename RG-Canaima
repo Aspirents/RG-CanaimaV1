@@ -1,0 +1,15 @@
+[Desktop Entry]
+
+Type=Application
+
+Encoding=UTF-8
+
+Name=RG-Canaima
+
+Comment=Una aplicación de ejemplo
+
+Exec= service mogod start && node server2.js
+
+Icon=icono.png
+
+Terminal=false

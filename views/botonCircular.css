@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+ul.circulos { 
+width: 100%; 
+margin: 20px auto; 
+text-align: center;
+list-style-type: none; 
+font: bold 14px arial;
+} 
+ 
+ul.circulos li { 
+display: inline; 
+margin: 0;
+padding: 0;
+} 
+ 
+ul.circulos li a { 
+display: inline-block;
+text-decoration: none; 
+/*border: solid 2px #DEDEDE;
+color:white; 
+background: blue; */
+padding: 5px;
+width:120px; 
+height:120px; 
+-o-border-radius: 200px;
+-moz-border-radius: 200px; 
+-webkit-border-radius: 200px; 
+-ms-border-radius: 200px;
+border-radius: 200px;
+
+/*transition: background: 0.25s;*/
+} 
+ul.circulos a span { 
+position: relative;
+top:40%;
+padding: 5px;
+text-align: center;
+} 
+
+/*
+ul.circulos a:hover { 
+background: #FFFFFF;
+
+}
+*/

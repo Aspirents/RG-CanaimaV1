@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+		
+		<title>Ficha Canaima</title>
+
+			<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="botonCircular.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	
+
+<!-- Barra de navegacion -->
+
+	<nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-faded" style="border-radius: 20px; border: solid 1px #E0E0E0;">
+
+
+	  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+
+	  <a class="navbar-brand" style="font-family: Arial; font-size: 20px; color: #008022;" href="#">RG-Canaima V1.0</a>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+	    
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="Registro2.html">Registro<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Salir</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " href="#">Editar</a>
+	      </li>
+	    </ul>
+
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" style="border-radius: 20px;" type="text" placeholder="Serial de la Canaima" align="center">
+	      <button class="btn btn-outline-success my-2 my-sm-0" style="border-radius: 20px;" type="submit">Buscar</button>
+	    </form>
+
+
+	  </div>
+	</nav>
+
+
+<!-- Contenido -->
+
+	<section class="jumbotron text-center" >
+	
+		<!-- Membrete -->
+		    <div class="row" style="width: absolute; background: white;">
+		    	
+		    	<div  style=" margin-left: 1%;">
+		    		<img src="../Cliente/img/canaima.png" class="img-responsive well" style="width: 200px; height: 80px;">
+		    	</div>
+
+
+		    	<div style="margin-top: 2%; margin-left: 50%; margin-right: 2%;">
+		    		<h4>#{ Nombre_Alumno }#</h4>
+
+		    	</div>
+
+		    	<div style="margin-top: 1.3%; height: 10px; width: 10px;">
+		    		<button type="button" style=" border-radius: 20px;" class="btn  btn"> Editar </button>
+
+		    	</div>
+		    		
+		    </div>
+	    
+
+		    <div class="row" style="width: absolute; background: white; margin-bottom: 5%;">
+
+		    <!-- Columna 1 -->
+
+		    	<div style="margin-top: 2%; width: 40%; margin-left: 5%;">
+
+				<!-- Datos del Aula -->
+
+					<div class="row" style="margin-bottom: 2%; margin-left: 6%;margin-bottom: 5%;" >
+							<h5>Datos del Aula</h5>
+						</div>
+				
+					<div class="row" style="margin-bottom: 3%; margin-left: 6%" align="center">
+							
+							<div style="margin-left: 2%;">
+								
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Nombre del Docente" class="input-lg form-control"/>
+								</div>
+								
+								<p> </p>
+
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;"  placeholder="Nombre del Alumno" class="input-lg form-control" />
+								</div>
+								
+								<p> </p>
+								
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;"  placeholder="Institucion de procedencia" class="input-lg form-control" />
+								</div>
+
+								</div>
+
+							<div style="margin-left: 10%;" align="center">
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;"  placeholder="Grado" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;"  placeholder="Seccion" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;"  placeholder="Tipo de institucion" class="input-lg form-control" />
+								</div>
+
+								</div>
+					</div>
+
+				<button type="button" style="margin-top: 2%; width: 90%;" class="btn disabled btn-success"> Guardar </button>
+
+		    	</div> <!-- Fin columna 1 -->
+
+		   	<!-- Columna 2 --> 
+		    	<div style="margin-top: 2%; width: 50%; margin-left: 1%; ">
+
+		    	<!-- Datos del Equipo -->
+		    			
+		    		<div class="row" style="margin-bottom: 2%; margin-left: 6%; margin-bottom: 5%;" >
+							<h5>Datos del Equipo</h5>
+						</div>
+				
+					<div class="row" style="margin-bottom: 3%; margin-left: 4%" align="center">
+
+							
+							<div style="margin-left: 2%; ">
+					
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Posee Canaima (SI / NO)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Modelo del Computador" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Serial del computador" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Sistema Operativo" class="input-lg form-control" />
+								</div>
+								<p> </p>
+
+								</div>
+
+							<div style="margin-left: 10%; width: 50%; ">
+								
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Numero de puertos USB" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Numero de puertos de Red" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Numero de puertos de audios" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Tipo de puerto de video (VGA/HDMI)" class="input-lg form-control" />
+								</div>
+
+								</div>
+
+							<div style="margin-left: 0.5%; width: 94%">
+									<input type="text" style="border-radius: 20px;" style="border-radius: 20px;" placeholder="Version del S.O." class="input-lg form-control" align="center" />
+								</div>
+
+						</div>
+
+
+		    	</div> <!-- Fin Columna 2>
+
+
+			<!-- Condiciones del Equipo -->
+
+					<div class="row" style="margin-top: 5%; margin-bottom: 5%; margin-left:43%;" >
+							<h5>Condiciones del Equipo</h5>
+						</div>
+
+					<div class="row" style="width: 100%; margin-left: 12%; margin-bottom: 5%;" align="center">
+
+							<div class="col-md-5" style="margin-left: -3%;">
+								
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Condicion general (Excelente, Buena, Regular, Mala)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Nivel de aseo (Excelente, Bueno, Regular, Malo)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="El computador posee Todas las teclas (SI/NO)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="El trackpack integrado funciona (SI/NO/PARCIALMENTE)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Estado de la pantalla (Bueno, Malo, con fallas)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Estado de la bateria (Bueno, Malo, con fallas)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Estado de la camara (Bueno, Malo, con fallas)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Estado de las cornetas (Bueno, Malo, con fallas)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;"style="font-size: 15px;" placeholder="Estado de los puertos USB (Bueno, Malo, Sucio)" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Cantidad de puerto USB operativos" class="input-lg form-control" />
+								</div>
+								<p> </p>
+								<div class="row">
+									<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Estado del puerto VGA/HDMI (Bueno, Malo, Sucio)" class="input-lg form-control" />
+								</div>
+
+								</div>
+
+
+							<div class="col-md-5" style="margin-left: 10%;" align="center">
+								
+								<div class="row" >
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Estado del puerto de red (Bueno, Malo, Sucio)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="El WIFI esta operativo (SI/NO)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="El Computador realiza un ruido al encender (SI/NO)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Al tocar el respirador sientes que exhala aire caliente (SI/NO)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" placeholder="El Culer logra escucharse o emite ruido (SI/NO)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Al copiar archivos el disco hace ruidos (SI/NO)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<div class="col-md-9">
+											<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Memoria disponible (Numero)" class="input-lg form-control" />
+										</div>
+
+										<div class="col-md-3">
+											<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Unid" class="input-lg form-control" />
+										</div>
+									</div>
+									<p> </p>
+									<div class="row">
+										<div class="col-md-9">
+											<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Tamano del Disco (Numero)" class="input-lg form-control" />
+										</div>
+
+										<div class="col-md-3">
+											<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Unid" class="input-lg form-control" />
+										</div>
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Posee los contenidos Canaima (SI/NO/Algunos)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Posee la suite libre office (SI/NO)" class="input-lg form-control" />
+									</div>
+									<p> </p>
+									<div class="row">
+										<input type="text" style="border-radius: 20px;" style="font-size: 15px;" placeholder="Posee juegos o Soft. de terceros (SI/NO)" class="input-lg form-control" />
+									</div>
+
+									</div>
+
+						</div>
+
+
+	</section>
+
+<!-- Fin Contenido -->
+
+</body>
+
+</html>

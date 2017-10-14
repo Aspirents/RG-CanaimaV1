@@ -1,0 +1,26 @@
+
+// Contenido
+section.jumbotron.text-center
+  .container(style='margin-top: 5%;')
+    img.img-responsive(src='img/canaima.png', style='width: 50%;')
+    .row(style='width: 100%; margin-left: 10%; margin-top: 10%;')
+      h2(style='margin-left: 25%; margin-top: -5%')  RG-Canaima version 1.0 
+      form.form-inline.my-2.my-lg-0
+        input.form-control.mr-sm-2(style='border-radius: 20px; width: 800px;', type='text', placeholder=' ', align='center')
+        button.btn.btn-outline-success.my-2.my-sm-0(style='border-radius: 20px;', type='submit') Buscar
+        p.lead.text-muted(style='font-family: Arial; margin-top: 1%; margin-left: 18%;') Seleccione la opcion por la cual desea realizar la Busqueda
+        .row(style='width: 100%; margin-left: 10%; margin-top: 1%;')
+          label.radio-inline(style=' margin-left: 10%; margin-right: 2%;')
+            input(type='radio', name='optradio', accept='true')
+            | Codigo
+          label.radio-inline(style=' margin-left: 10%; margin-right: 2%;')
+            input(type='radio', name='optradio')
+            | Grado
+          label.radio-inline(style=' margin-left: 10%; margin-right: 2%;')
+            input(type='radio', name='optradio')
+            | Condicion General
+    p.lead.text-muted(style='font-family: Arial; margin-top: 5%; margin-bottom: 5%;')
+      | Sistema de registro para los computadores canaima educativos de la U.E.N.B. "Francisco Esteban Gomez", del municipio Arismendi estado Nueva Esparta. Dicho sistema presenta un entorno visual basado en la plantilla de Boostrap 4.0, el lenguaje de programaci'on NodeJS y un sistema de Base de datos no relacional MongoDB. Desarrollado por estudiantes de servicio comunitario Unefa 2-2016 de Ingenier'ia de sistemas, como parte de su proyecto sobre Tecnologias Libres.
+    p
+      a.btn.btn-primary(href='#') Ver Aulas registradas
+      a.btn.btn-secondary(href='#') Salir del Sistema

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=RG-Canaima
+Comment=Una aplicación de ejemplo
+Icon=/root/Escritorio/RG-CanaimaV1.0/icono.png
+Exec=./Escritorio/RG-CanaimaV1.0/canaimaRG.sh
+Terminal=true
+

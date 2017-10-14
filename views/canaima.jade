@@ -1,0 +1,27 @@
+extends Barra.jade
+block barra
+
+      // Contenido
+      section.jumbotron.text-center(style='background: white;')
+        .container(style='margin-top: 5%;')
+          img.img-responsive(src='img/canaima.png', style='width: 50%;')
+          .row(style='width: 100%; margin-left: 10%; margin-top: 10%;')
+            h2(style='margin-left: 25%; margin-top: -5%')  RG-Canaima version 1.0 
+            form.form-inline.my-2.my-lg-0(metod='get', action='/Buscar')
+              input.form-control.mr-sm-2(  style='border-radius: 20px; width: 800px; text-align: center; margin-left: 2%;' , name='buscar',S type='text', placeholder='Marque una opcion, escriba lo que desea buscar y presione el boton', align='center')
+              button.btn.btn-outline-success.my-2.my-sm-0(style='border-radius: 20px;', type='submit') Buscar
+              p.lead.text-muted(style='font-family: Arial; margin-top: 1%; margin-left: 15%;') Seleccione la opcion por la cual desea realizar la Busqueda
+              .row(style='width: 100%; margin-left: 10%; margin-top: 1%;')
+                label.radio-inline(style=' margin-left: 20%;  margin-right: 2%;' name='codigo')
+                  input(type='radio', name='optradio', accept='true' value='codigo')
+                  | Codigo
+                label.radio-inline(style=' margin-left: 10%; margin-right: 2%;' name='grado')
+                  input(type='radio', name='optradio' value='grado')
+                  | Grado
+          p.lead.text-muted(style='font-family: Arial; margin-top: 5%; margin-bottom: 5%;')
+            | Sistema de registro para los computadores canaima educativos de la U.E.N.B. "Francisco Esteban Gomez", del municipio Arismendi estado Nueva Esparta. Dicho sistema presenta un entorno visual basado en la plantilla de Boostrap 4.0, el lenguaje de programaci'on NodeJS y un sistema de Base de datos no relacional MongoDB. Desarrollado por estudiantes de servicio comunitario UNEFA 2-2016 de Ingenier'ia de sistemas, como parte de su proyecto sobre Tecnologias Libres.
+          p
+            a.btn.btn-primary(href='/Aulas') Ver Aulas registradas
+            a.btn.btn-secondary(href='/salir') Salir del Sistema
+
+
